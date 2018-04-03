@@ -2,8 +2,8 @@ $(function () {
   $.fn.currencyInputs = function (options) {
       var options = $.extend({
           decimals: 2,
-          dec_point: ',',
-          thousands_sep: '.',
+          dec_point: '.',
+          thousands_sep: ',',
       }, options);
       $.fn.currencyInput = function (options) {
           //input defineren
